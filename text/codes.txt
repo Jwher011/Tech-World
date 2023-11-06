@@ -1,0 +1,645 @@
+  position: absolute;
+        max-height: 1200px;
+       padding-bottom: 25%;
+        height: auto;
+        width: 100%;
+        overflow: auto;
+        display: grid;
+        gap: 18px;
+        font-size: 0;
+        scrollbar-width: none;
+        grid-template-columns: repaat(10, 1fr);
+
+
+
+
+  <section class="Products"> 
+
+
+
+
+
+///////////////////////////////
+<div class="container">
+    <div class="card">
+        <img src="tv.png" alt="Tv">
+        <div class="intro">
+            <h1>Tv's</h1>
+            <p> The <span>Tv</span> is an Artwork, television, movies and memories—The Frame TV showcases it all on a beautiful QLED screen.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+<figcaption>  <div class="card"> </figcaption>
+        <img src="fridge.png" alt="Smart Fridge">
+        <div class="intro">
+            <h1>Smart Fridge</h1>
+            <figcaption> Wi-Fi connectivity and control of the <span>  Smart Fridge </span> from your phone, which lets you look inside when grocery shopping to see what items you need or adjust interior temperatures remotely. </figcaption>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="card">
+        <img src="RingCam.jpg" alt="Ring camera">
+        <div class="intro">
+            <h1> Cameras</h1>
+            <p> Explore varriaties of cameras including <span>Ring Cameras</span> which uses Video Doorbells that are built-in the camera which allows you to see a live video feed of what's happening at your front door at any given moment.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="card">
+        <img src="SmartPlug.jpg" alt="SmartPlug">
+        <div class="intro">
+            <h1>Smart Plug</h1>
+            <p> A <span>Smart Plug</span> will give you control over the flow of power to plugged-in devices via an app on your phone or using your voice when paired with a compatible home assistant like Alexa or HomeKit.</p>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="card">
+        <img src="smart mirror.png" alt="Smart Mirror">
+        <div class="intro">
+            <h1>Smart mirror</h1>
+            <p> <span>Smart Mirrors</span> displays digital information such as weather updates, news, social media feeds, and calendar reminders alongside the reflection of the user.</p>
+        </div>
+    </div>
+</div>
+    
+<div class="container">
+    <div class="card">
+        <img src="Smart light.png" alt="Smart light">
+        <div class="intro">
+            <h1> Smart Lights</h1>
+            <p> <span>Smart Lighting</span>  enables the use of motion sensors in every room where either a smart light switch or smart light bulb is installed. ></p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="card">
+        <img src="amazon-echo.png" alt="amazon-echo">
+        <div class="intro">
+            <h1> Amazon Echo </h1>
+            <p> <span>Amazon Echo </span> features include voice interaction, music playback, making to-do lists, setting alarms, streaming podcasts, and playing audiobooks, in addition to providing weather, traffic and other real-time information.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <img src="intercome.jpg" alt="intercom">
+        <div class="intro">
+            <h1> intercom</h1>
+            <p>  <span> intercom </span>  keeps the door or gate locked but maintains easy access for residents, guests, and delivery carriers. Additionally, staff and residents can visually confirm who is requesting access before letting them into the building.</p>
+        </div>
+    </div>
+</div>
+
+<button id="next-slide" class="slide-button material-symbols-rounded">
+    chevron_right
+  </button>
+
+              </div>
+            </div>
+
+            <div class="slider-scrollbar">
+                <div class="scrollbar-track">
+                    <div class="scrollbar-thumb">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+     </div>
+    </div>
+</div>
+
+</section>
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    .container{ 
+         display:flex;
+     }
+
+
+/////////////////////////////////////////////////////////// carasol codes with images
+
+<h3>Featured Electronics</h3>
+
+    
+
+
+    <div class="container">
+                   
+                            <img src="tv.png" alt="Tv">
+                            <h4>Tv's</h4>
+                        <p> The <span>Tv</span> is an Artwork, television, movies and memories—The Frame TV showcases it all on a beautiful QLED screen.</p>
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                          </ol>
+                      
+                        <div class="caption">
+                        
+                        </div>
+                        <a class="btn btn-mini btn-primary" href="#">» Read More</a>
+                    </div>
+                </li>
+
+
+ 
+                <li class="span3">
+                    
+                    <div class="thumbnail">
+        <img src="fridge.png" alt="Smart Fridge">
+                    </div>
+
+        <div class="caption">
+            <h4>Smart Fridge</h4>
+            <p> Wi-Fi connectivity and control of the <span>  Smart Fridge </span> from your phone, which lets you look inside when grocery shopping to see what items you need or adjust interior temperatures remotely. </p>
+        </div>
+        <a class="btn btn-mini btn-primary" href="#">» Read More</a>
+    </div>
+</li>
+
+
+<li class="span3">
+                    
+    <div class="thumbnail">
+        <img src="RingCam.jpg" alt="Ring camera">
+    </div>
+    <div class="caption">
+            <h4> Cameras</h4>
+            <p> Explore varriaties of cameras including <span>Ring Cameras</span> which uses Video Doorbells that are built-in the camera which allows you to see a live video feed of what's happening at your front door at any given moment.</p>
+        </div>
+        <a class="btn btn-mini btn-primary" href="#">» Read More</a>
+    </div>
+</li>
+
+
+<li class="span3">
+                    
+    <div class="thumbnail">
+        <img src="RingCam.jpg" alt="Ring camera">
+    </div>
+        <div class="caption">
+            <h4>Smart Plug</h4>
+            <p> A <span>Smart Plug</span> will give you control over the flow of power to plugged-in devices via an app on your phone or using your voice when paired with a compatible home assistant like Alexa or HomeKit.</p>
+        </div>
+        <a class="btn btn-mini btn-primary" href="#">» Read More</a>
+    </div>
+</li>
+
+<li class="span3">
+                    
+    <div class="thumbnail">
+        <img src="smart mirror.png" alt="Smart Mirror">
+        <div class="caption">
+            <h4>Smart mirror</h4>
+            <p> <span>Smart Mirrors</span> displays digital information such as weather updates, news, social media feeds, and calendar reminders alongside the reflection of the user.</p>
+        </div>
+        <a class="btn btn-mini btn-primary" href="#">» Read More</a>
+    </div>
+</li>
+<li class="span3">
+                    
+    <div class="thumbnail">
+        <img src="Smart light.png" alt="Smart light">
+        <div class="caption">
+            <h4> Smart Lights</h4>
+            <p> <span>Smart Lighting</span>  enables the use of motion sensors in every room where either a smart light switch or smart light bulb is installed. ></p>
+        </div>
+        <a class="btn btn-mini btn-primary" href="#">» Read More</a>
+    </div>
+</li>
+<li class="span3">
+                    
+    <div class="thumbnail">
+        <img src="amazon-echo.png" alt="amazon-echo">
+        <div class="caption">
+            <h4> Amazon Echo </h4>
+            <p> <span>Amazon Echo </span> features include voice interaction, music playback, making to-do lists, setting alarms, streaming podcasts, and playing audiobooks, in addition to providing weather, traffic and other real-time information.</p>
+        </div>
+        <a class="btn btn-mini btn-primary" href="#">» Read More</a>
+    </div>
+</li>
+
+<li class="span3">
+                    
+    <div class="thumbnail">
+        <img src="intercome.jpg" alt="intercom">
+            <h4> intercom</h4>
+            <p>  <span> intercom </span>  keeps the door or gate locked but maintains easy access for residents, guests, and delivery carriers. Additionally, staff and residents can visually confirm who is requesting access before letting them into the building.</p>
+        </div>
+        <a class="btn btn-mini btn-primary" href="#">» Read More</a>
+    </div>
+</li>
+
+
+/////////////////////////////////////// old nav bar
+
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    padding: 35px 100px 0;
+}
+
+
+header a{
+text-transform: capitalize;
+font-weight: 900;
+text-decoration: none;
+}
+
+header h2{
+    text-transform: uppercase;
+}
+
+header .nav{
+    display: flex;
+}
+
+header .nav li{
+    margin: 0 15px;
+
+}
+
+header .nav li:first-child{
+    margin-left: 0;
+}
+
+header .nav li:last-child{
+    margin-right: 0;
+}
+
+.navbar ul li{
+
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+
+
+.navbar ul li a{
+
+    text-decoration: none;
+    color:aliceblue;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+
+ .navbar ul li::after{
+   
+    content: '';
+   height: 3px;
+   width: 0%;
+   background: rgb(207, 238, 238);
+   position:absolute;
+   left: 0;
+   bottom: -10px;
+   transition: 0.5s;    
+}
+
+ .navbar ul li:hover::after{
+    width: 100%;
+}
+
+</ul>
+</div><!-- /Slide1 -->  
+</div>
+
+<div class="control-box">                            
+<a data-slide="prev" href="#myCarousel" class="carousel-control left">‹</a>
+<a data-slide="next" href="#myCarousel" class="carousel-control right">›</a>
+</div><!-- /.control-box -->   
+                
+</div><!-- /#myCarousel -->
+
+</div><!-- /.span12 -->          
+</div><!-- /.row --> 
+</div><!-- /.container -->
+</div>
+<script>
+    $(document).ready(function() {
+        $('.carousel').carousel();
+      });
+    
+      // Carousel Auto-Cycle
+      $(document).ready(function() {
+        $('.carousel').carousel({
+          interval: 5000 // five seconds 
+        })
+      });
+    
+      </script>
+
+
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////CSS stuff 7g scroll bar
+    .row{
+
+    margin-top: 5%;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    }
+
+    
+
+           .Products{
+
+            
+            display: flex;
+            justify-content: center;
+            height: 80vh;
+            background: whitesmoke;
+            align-items:center;
+            position: relative;
+            margin-top: 70px;
+            min-height: 100vh;
+         
+            
+            }
+
+            .Products-col{
+
+                flex-basis: 31%;
+                background:#8a8a8aba;
+                border-radius: 10px;
+                margin-bottom: 5%;
+                padding: 20px 12px;
+                box-sizing: border-box;
+            }
+            
+    .Products-col:hover{
+
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+
+    }
+
+
+    @media(max-width:700px){
+
+        .row{
+    
+            flex-direction: column;
+        }
+    }
+  
+
+    .card{
+        height: 300px;
+        margin: 70px;
+        box-shadow: 5px 5px 20px black;
+        overflow: hidden;
+    }
+span{
+    font-weight: bold;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+    img{
+        height: 300px;
+        width: 220px;
+        border-radius: 3px;
+        transition: .5s;
+    }
+    .intro{
+        height: 50px;
+        width: 150px;
+        padding: 6px;
+        box-sizing: border-box;
+        position: absolute;
+        bottom: -20px;
+        background: rgb(27,27,27);
+        color: white;
+        transition: .5s;
+
+
+    }
+
+    p{
+
+        font: 20px;
+        margin: 20px;
+        visibility: hidden;
+        opacity:0 ;
+
+    }
+
+    h1{
+        margin: 10px;
+        font-size: 40px;
+    }
+
+    .card:hover .intro{
+    height: 220px; 
+    bottom: 50px; 
+        background: black;
+
+    }
+
+    .card:hover p{
+
+        opacity: 1;
+        visibility: visible;
+
+    }
+
+    .card:hover img{
+
+        transform: scale(1.1) rotate(-3deg);
+    }
+
+
+
+    .contain{
+        max-width: 1200px;
+        width: 95%; 
+    }
+
+    .slider-wrapper{
+        position: relative;
+    }
+
+    .slider-wrapper .image-list{
+      
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        gap: 18px;
+        font-size: 0;
+        list-style: none;
+        margin-bottom: 30px;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    .slider-wrapper .image-list::-webkit-scrollbar{
+        display: none;
+
+    }
+
+    .slider-wrapper .image-list .image-item{
+        width: 325px;
+        height: 400px;
+        object-fit: cover;
+    }
+    
+    .contain .slider-scrollbar{
+        height: 24px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .slider-scrollbar .scrollbar-track {
+        background: #ccc;
+        width: 100%;
+        height: 2px;
+        display: flex;
+        align-items: center;
+        border-radius: 4px;
+        position: relative;
+      }
+      
+
+      .slider-scrollbar:hover .scrollbar-track {
+        height: 4px;
+      }
+      .slider-scrollbar .scrollbar-thumb {
+        position: absolute;
+        background: #000;
+        top: 0;
+        bottom: 0;
+        width: 50%;
+        height: 100%;
+        cursor: grab;
+        border-radius: inherit;
+      }
+
+      .slider-scrollbar .scrollbar-thumb:active {
+        cursor: grabbing;
+        height: 8px;
+        top: -2px;
+      }
+      .slider-scrollbar .scrollbar-thumb::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -10px;
+        bottom: -10px;
+      }
+      /* Styles for mobile and tablets */
+      @media only screen and (max-width: 1023px) {
+        .slider-wrapper .slide-button {
+          display: none !important;
+        }
+        .slider-wrapper .image-list {
+          gap: 10px;
+          margin-bottom: 15px;
+          scroll-snap-type: x mandatory;
+        }
+        .slider-wrapper .image-list .image-item {
+          width: 280px;
+          height: 380px;
+        }
+        .slider-scrollbar .scrollbar-thumb {
+          width: 20%;
+        }
+      }
+
+
+////////////////////////////////index category
+
+
+      
+     .index-category{
+        width: 100%;
+        padding: 60px 0;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+         }
+    
+         .index-category-box{
+            width: 160px;
+            height: 160px;
+            background-color:#79a59b;
+         }
+    
+         .index-category-box h3{
+            font-size: 18px;
+            line-height: 24px;
+            font-style: italic;
+         }
+
+///////////////////////////////////////section
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 110px 100px;
+}
+
+//////////////////////old background bg
+
+<div class="ServiceBG"> </div>
+
+
+
+
+    .ServiceBG{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(keyboardBG.gif);
+    background-size:cover;
+    background-position:center;
+    background-attachment: scroll;
+
+    } 
+
+
+///////////////////////// words for looks
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

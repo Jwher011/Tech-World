@@ -1,0 +1,208 @@
+  
+*{
+    Margin:0;
+    padding: 0;
+   box-sizing: border-box;
+
+}
+
+body {
+	
+	font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	margin: 6% auto 0;
+}
+.single-card {
+	position: relative;
+	width: 280px;
+	height: 400px;
+	margin: 15px;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+	transition: box-shadow 0.3s ease;
+	overflow: hidden;
+	background: #414852;
+	border-radius: 15px;
+	transition: all 0.8s ease-in-out;
+}
+.single-card:hover {
+	transform: translateY(-10px);
+}
+.imgg-area {
+	position: relative;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+}
+.imgg-area img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+.imgg-area:hover img {
+	transform: scale(1.1);
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 174, 255, 0.8);
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+.single-card:hover .overlay {
+	opacity: 1;
+}
+.add-to-cart, .view-details {
+	background-color: #fff;
+	color: #333;
+	padding: 10px 15px;
+	border-radius: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, color 0.3s ease;
+	margin-bottom: 10px;
+}
+.add-to-cart:hover, .view-details:hover {
+	background-color: orangered;
+	color: #fff;
+	border: none;
+}
+.info {
+	padding: 10px;
+	text-align: center;
+	color: #ddd;
+}
+.info h3 {
+	margin: 15px 0 10px;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', sans-serif;
+}
+.info .price {
+	margin: 0;
+	font-size: 30px;
+	font-weight: bold;
+	color: aqua;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+
+  
+  }
+  
+  /* Caption text */
+  .text {
+    color: #b3afaf;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #b3afaf;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #0f93e0;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+
+  .carousel{
+    height: 600px; 
+    perspective: 250px;    
+    
+}
+.carousel .carousel-item {
+	width: 450px;
+	background: #fff;
+	padding: 50px;
+	height: auto;
+	text-align: center;
+    border-radius: 15px;
+}
+.img-area {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 50%;
+	border: inset 8px deepskyblue;
+}
+        .img-area img{
+            width: 100%;
+        }
+       
+.testi p {
+	color: #262626;
+	font-size: 18px;
+	line-height: 1.9;
+}
+        .testi h4 {
+	font-size: 20px;
+	margin: 0;
+	color: #000;
+}
+        .testi h5 {
+	font-size: 14px;
+	letter-spacing: 5px;
+	margin: 7px 0;
+}
