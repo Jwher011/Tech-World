@@ -1,215 +1,90 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        @import url(https://fonts.googleapis.com/css?family=Nunito:400,700,300);
- * {
-	 box-sizing: border-box;
-}
- body {
-	 font-family: 'Nunito', sans-serif;
-}
-  .page {
-	 margin: 0 auto;
-	 width: 920px;
-}
-  .content {
-	 width: 33.33%;
-	 display: inline-block;
-	 margin: 0 auto;
-	 position: relative;
-	 height: 100vh;
-	 max-width: 300px;
-}
-  .circle_inner__layer {
-	 width: 600px;
-	 height: 200px;
-	 transition: all 0.4s;
-	 position: absolute;
-	 top: 0;
-	 left: -200px;
-}
-  .circle_inner__layer img {
-	 width: 100%;
-	 position: absolute;
-	 bottom: 0;
-}
-  .circle {
-	 position: absolute;
-	 left: 0;
-	 right: 0;
-	 margin: auto;
-	 top: 50%;
-	 width: 200px;
-	 transform: translateY(-50%);
-	 transition: all 0.5s;
-	 cursor: pointer;
-}
-  .circle:hover .circle_shine {
-	 top: 330px;
-	 left: -200px;
-}
-  .circle_shine {
-	 background: white;
-	 width: 600px;
-	 transition: 0.3s;
-	 height: 200px;
-	 opacity: 0.2;
-	 top: -10px;
-	 left: -90px;
-	 transform: rotate(45deg);
-	 position: absolute;
-	 z-index: 2;
-}
-  .circle:hover h2, body .circle:hover h3 {
-	 opacity: 1;
-	 top: -36px;
-}
-  .circle:hover .content_shadow {
-	 transform: scale(1.1);
-	 top: -22px;
-}
-  .circle:hover h3 {
-	 transition: all 0.2s 0.04s;
-}
-  .circle:hover h2 {
-	 transition: all 0.2s;
-}
-  .circle .circle_inner__layer:nth-of-type(1) {
-	 top: 0px;
-	 left: 0px;
-}
-  .circle .circle_inner__layer:nth-of-type(2) {
-	 top: 0px;
-	 left: -210px;
-}
-  .circle .circle_inner__layer:nth-of-type(3) {
-	 top: 0px;
-	 left: -440px;
-}
-  .circle_title {
-	 text-align: center;
-}
-  .circle_title h2, body .circle_title h3 {
-	 opacity: 0;
-	 color: #4a7479;
-	 margin: 0;
-	 transition: all 0.2s 0.04s;
-	 position: relative;
-	 top: -10px;
-}
-  .circle_title h3 {
-	 transition: all 0.2s;
-	 color: #b0d5d6;
-	 font-size: 15px;
-}
-  .circle_inner {
-	 border-radius: 200px;
-	 background: #b0d5d6;
-	 overflow: hidden;
-	 margin: auto;
-	 width: 200px;
-	 z-index: 1;
-	 transition: all 0.3s;
-	 height: 200px;
-	 position: relative;
-}
-  .circle_inner:hover {
-	 transform: scale(1.1);
-}
-  .circle_inner:hover .circle_inner__layer:nth-of-type(1) {
-	 left: -80px;
-	 transition: all 4s linear;
-}
-  .circle_inner:hover .circle_inner__layer:nth-of-type(2) {
-	 left: -400px;
-	 transition: all 4s linear;
-}
-  .circle_inner:hover .circle_inner__layer:nth-of-type(3) {
-	 left: -140px;
-	 transition: all 4s linear;
-}
-  .content_shadow {
-	 width: 200px;
-	 box-shadow: 0px 31px 19px -2px #e0e8f9;
-	 height: 20px;
-	 border-radius: 70%;
-	 position: relative;
-	 top: -44px;
-	 transition: all 0.3s;
-	 z-index: 0;
-}
- 
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/convert.css">
+
+
 </head>
-<body>
-    
-    <div class="page">
-        <div class="content">
-          <div class="circle">
-            <div class="circle_title">
-              <h2>Great Outdoors</h2>
-              <h3>Get some fresh air</h3>
-            </div>
-            <div class="circle_inner">
-              <div class="circle_inner__layer">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc1.png"/>
-              </div>
-              <div class="circle_inner__layer">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc3.png"/>
-              </div>
-              <div class="circle_inner__layer">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc2.png"/>
-              </div>
-            </div>
-            <div class="content_shadow"></div>
-          </div>
-        </div>
-        <div class="content">
-          <div class="circle">
-            <div class="circle_title">
-              <h2>City Breaks</h2>
-              <h3>Go somewhere new</h3>
-            </div>
-            <div class="circle_inner">
-              <div class="circle_inner__layer">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc4.png"/>
-              </div>
-              <div class="circle_inner__layer">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc5.png"/>
-              </div>
-              <div class="circle_inner__layer">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc6.png"/>
-              </div>
-            </div>
-            <div class="content_shadow"></div>
-          </div>
-        </div>
-        <div class="content">
-          <div class="circle">
-            <div class="circle_title">
-              <h2>Cheap Flights</h2>
-              <h3>Come fly with me</h3>
-            </div>
-            <div class="circle_inner">
-              <div class="circle_inner__layer">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc7.png"/>
-              </div>
-              <div class="circle_inner__layer">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc8.png"/>
-              </div>
-              <div class="circle_inner__layer">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc9.png"/>
-              </div>
-            </div>
-            <div class="content_shadow"></div>
-          </div>
-        </div>
-      </div>
+<h1>Shopping Cart</h1>
+
+<div class="shopping-cart">
+
+  <div class="column-labels">
+    <label class="product-image">Image</label>
+    <label class="product-details">Product</label>
+    <label class="product-price">Price</label>
+    <label class="product-quantity">Quantity</label>
+    <label class="product-removal">Remove</label>
+    <label class="product-line-price">Total</label>
+  </div>
+
+  <div class="product">
+    <div class="product-image">
+      <img src="https://s.cdpn.io/3/dingo-dog-bones.jpg">
+    </div>
+    <div class="product-details">
+      <div class="product-title">Dingo Dog Bones</div>
+      <p class="product-description">The best dog bones of all time. Holy crap. Your dog will be begging for these things! I got curious once and ate one myself. I'm a fan.</p>
+    </div>
+    <div class="product-price">12.99</div>
+    <div class="product-quantity">
+      <input type="number" value="2" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">25.98</div>
+  </div>
+
+  <div class="product">
+    <div class="product-image">
+      <img src="https://s.cdpn.io/3/large-NutroNaturalChoiceAdultLambMealandRiceDryDogFood.png">
+    </div>
+    <div class="product-details">
+      <div class="product-title">Nutro™ Adult Lamb and Rice Dog Food</div>
+      <p class="product-description">Who doesn't like lamb and rice? We've all hit the halal cart at 3am while quasi-blackout after a night of binge drinking in Manhattan. Now it's your dog's turn!</p>
+    </div>
+    <div class="product-price">45.99</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">45.99</div>
+  </div>
+
+  <div class="totals">
+    <div class="totals-item">
+      <label>Subtotal</label>
+      <div class="totals-value" id="cart-subtotal">71.97</div>
+    </div>
+    <div class="totals-item">
+      <label>Tax (5%)</label>
+      <div class="totals-value" id="cart-tax">3.60</div>
+    </div>
+    <div class="totals-item">
+      <label>Shipping</label>
+      <div class="totals-value" id="cart-shipping">15.00</div>
+    </div>
+    <div class="totals-item totals-item-total">
+      <label>Grand Total</label>
+      <div class="totals-value" id="cart-total">90.57</div>
+    </div>
+  </div>
       
+      <button class="checkout">Checkout</button>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/js/converter.js"></script>
+
 </body>
 </html>
